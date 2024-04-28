@@ -1,0 +1,17 @@
+Package: CML
+Type: Package
+Title: Coordinated Multi-neighborhood Learning Algorithm
+Version: 1.0
+Date: 2023-06-02
+Author: Stephen Smith
+Maintainer: Stephen Smith <stephensmith13424@gmail.com>
+Description: Causal discovery of the local structure around user-selected target nodes
+License: GPL-3
+Imports: 
+    MXM,
+    Rcpp (>= 1.0.8),
+    bnlearn
+LinkingTo: Rcpp, RcppArmadillo
+Config/testthat/edition: 3
+Suggests: 
+    testthat (>= 3.0.0)
